@@ -7,23 +7,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Problem Statement](#problem-statement)
-3. [System Architecture](#system-architecture)
-4. [Hardware](#hardware)
-5. [Software & Libraries](#software--libraries)
-6. [Wiring & Circuits](#wiring--circuits)
-7. [Code Structure](#code-structure)
-8. [Build & Setup Instructions](#build--setup-instructions)
-9. [Testing](#testing)
-10. [Results](#results)
-11. [Repository Layout](#repository-layout)
-12. [References & Resources](#references--resources)
-
----
-
 ## Project Overview
 
 This project is a small-scale autonomous ground vehicle that emulates the core functions of a full-size self-driving car. It uses onboard sensing (LiDAR and camera) to drive itself from a starting point to a destination while detecting and avoiding obstacles along the way. Navigation is handled entirely from onboard sensors — ranging from LiDAR and visual context from the camera — fused on an NVIDIA Jetson Nano running ROS, mounted on the Waveshare JetBot ROS AI Kit chassis.
