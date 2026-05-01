@@ -145,26 +145,6 @@ The bot is evaluated by running it against a target waypoint with obstacles plac
 
 ---
 
-## Repository Layout
-
-```
-/
-├── README.md                  # This document
-├── ros_ws/                    # ROS workspace
-│   └── src/
-│       ├── nav_node/          # Navigation/decision node
-│       ├── sensor_drivers/    # Custom sensor helpers
-│       └── launch/            # Launch files for full-system bringup
-├── docs/
-│   ├── wiring_diagram.png
-│   ├── block_diagram.png
-│   └── test_logs/
-└── media/
-    └── demo_videos/
-```
-
----
-
 ## References & Resources
 
 - Waveshare JetBot ROS AI Kit — product documentation and assembly guide
