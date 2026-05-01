@@ -44,7 +44,7 @@ This project takes that approach: rather than simulating an AV, it builds one at
 
 **Outputs (Actuators):**
 - **Dual DC motor drive** — controls left/right wheel speed for differential steering
-- **8Ω 2W speaker** — audio feedback (alerts, status, obstacle warnings)
+- ** On-board speaker** — audio feedback (alerts, status, obstacle warnings)
 
 The Jetson Nano runs all sensor drivers and the navigation logic, fusing LiDAR ranges and camera classifications to produce motor commands in real time.
 
@@ -56,11 +56,11 @@ The Jetson Nano runs all sensor drivers and the navigation logic, fusing LiDAR r
 |---|---|---|
 | Waveshare JetBot ROS AI Kit (incl. Jetson Nano, chassis, motors, Pi Camera) | Compute + drivetrain + camera | ~$300.00 |
 | RPLiDAR A1 | 2D 360° ranging | (included / on-hand) |
-| 8Ω 2W speaker | Audio output | ~$1 – $6 |
+| 8Ω 2W speaker | Audio output | Included |
 | Power: 18650 Li-ion cells (kit-supplied) | Onboard power | (included) |
 | Jumper wires, mounts, hardware | Integration | minor |
 
-**Total:** approximately $305 – $315
+**Total:** approximately $300
 
 ---
 
